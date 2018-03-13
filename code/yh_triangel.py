@@ -1,3 +1,4 @@
+#打印杨辉三角
 def yh_triangel(n):
     L=[1]                                               #定义一个list[1]
     while True:
