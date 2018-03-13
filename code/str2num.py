@@ -1,4 +1,6 @@
 #用map()和reduce()实现字符串转数字
+
+from functools import reduce
 def add(x,y):
     return x*10+y
 
