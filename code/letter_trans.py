@@ -2,6 +2,6 @@
 def letter_trans(name):
     return name[0].upper()+name[1:].lower()
     
-L1 = ['adam', 'LISA', 'barT']
+L1 = ['adam', 'LISAT', 'barT']
 L2 = list(map(letter_trans,L1))
 print(L2)
