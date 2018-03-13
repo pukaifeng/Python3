@@ -8,8 +8,7 @@ def primes(num):
         n = 2
         while n < num:
             yield n
-            n = n + 1
-            
+            n = n + 1            
     it = _odd_iter()
     while True:
         n = next(it)
